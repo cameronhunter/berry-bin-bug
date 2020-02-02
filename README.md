@@ -1,5 +1,7 @@
 # Yarn Berry bin bug
 
+See [issue on yarnpkg/berry](https://github.com/yarnpkg/berry/issues/882).
+
 When a project defines a `bin` field to create a binary, yarn 2.0 seems to
 expect the file to be authored in JS rather than executing it using its shebang.
 
